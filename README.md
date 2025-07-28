@@ -8,12 +8,29 @@ A simple web app that allows users to upload their resumes and get instant AI fe
 - **Backend:** Flask (Python)
 - **Libraries:** Flask-CORS, FormData API
 - **Deployment:** Local (can be extended to Render/Heroku/Netlify)
+  
 
 ##  Features
 - Upload resume as PDF
 - Paste job description
 - Instant resume analysis (dummy feedback for now)
 - Clean UI using React
+
+
+
+##Backend setup
+-cd backend
+python -m venv .venv
+.venv\Scripts\activate
+Server runs at: http://localhost:5000
+
+
+##Frontend setup
+cd ../frontend
+npm install
+npm start
+App runs at: http://localhost:3000
+
 
 ##  How to Run
 
@@ -31,3 +48,4 @@ A simple web app that allows users to upload their resumes and get instant AI fe
 
 ### 📄 License
 MIT
+
